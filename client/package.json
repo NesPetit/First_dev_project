@@ -1,0 +1,18 @@
+{
+  "name": "projet_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel *.html",
+    "build" : "parcel build *.html",
+    "predeploy":"npm run build", 
+    "deploy" : "surge dist so-esilv-2020.surge.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
