@@ -1,4 +1,5 @@
 import './css/main.css'
+import '@fortawesome/fontawesome-free/js/all'
 
 /*
 import { library } from '@fortawesome/fontawesome-svg-core'
