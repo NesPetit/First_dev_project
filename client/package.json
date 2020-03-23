@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel *.html",
-    "build" : "parcel build *.html",
-    "predeploy":"npm run build", 
-    "deploy" : "surge dist so-esilv-2020.surge.sh"
+    "build": "parcel build *.html",
+    "predeploy": "npm run build",
+    "deploy": "surge dist so-esilv-2020.surge.sh"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-brands-svg-icons": "^5.13.0",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "parcel-bundler": "^1.12.4"
   }
 }
