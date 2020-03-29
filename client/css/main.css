@@ -11,6 +11,10 @@ html{
     color : #fff;
 }
 
+body {
+    /* background-image: url(img/background.jpg); */
+}
+
 ul,nav {
     list-style : none;
 }
@@ -36,7 +40,7 @@ a.btn{
     width:100px;
 }
 
-section{
+section {
     display :flex;
     flex-direction : column;
     align-items:center;
