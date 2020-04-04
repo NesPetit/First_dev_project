@@ -1,7 +1,8 @@
-import './css/main.css'
+// import './css/main.css'
+//import './so.css'
+/*
 import '@fortawesome/fontawesome-free/js/all'
 
-/*
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
@@ -14,3 +15,9 @@ const camera = icon({ prefix: 'fas', iconName: 'camera' })
 
 console.log(camera)
 */
+import { library, dom } from '@fortawesome/fontawesome-svg-core'
+import { faCircle, faNewspaper, faUserCircle, faFutbol, faUserCheck, faSmileBeam} from '@fortawesome/free-solid-svg-icons'
+
+library.add(faCircle, faNewspaper, faUserCircle, faFutbol, faUserCheck, faSmileBeam) 
+
+dom.i2svg()

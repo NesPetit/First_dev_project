@@ -1,0 +1,162 @@
+/*---------------General---------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html{
+    font: normal 16px sans-serif;
+    color: #fff;
+}
+
+nav{
+    list-style : none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+a.btn{
+    display: block;
+    color:#fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color:grey;
+    font-weight: 800;
+    line-height: 30px;
+    text-align:center;
+    margin-bottom: 15px;
+    width: 90px;
+}
+
+.basic_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 100px;
+}
+
+.main_footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*---------------Header---------------*/
+
+.menu{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.menu .logo{
+    font-family:'Quicksand', sans-serif;
+    margin-left:10px;
+}
+
+.navbar{
+    display : flex;
+}
+
+.menu a{
+    margin : 17px;
+}
+
+@media (max-width : 750px){
+    .menu{
+        padding : 20px 50px;
+    }
+}
+
+@media (max-width : 600px){
+    .menu{
+        flex-direction : column;
+    }
+    .menu .logo{
+        margin-bottom : 15px;
+    }
+}
+
+.logo{
+    margin-right:50px;
+}
+
+/*---------------Page d'accueil---------------*/
+
+.accueil{
+    justify-content: center;
+    min-height: 100vh;
+    text-align : center; 
+    text-shadow: 1px 1px 5px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 125px 100px;
+}
+
+.accueil .background-image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    z-index: -1;
+}
+
+.accueil .titre{
+    font: bold 50px 'Open Sans', sans-serif;
+
+}
+
+.accueil .titre_bis{
+    font: normal 25px 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+/*---------------About Us---------------*/
+
+.accueil .welc{
+    position: absolute;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px black;
+    top:150px;
+}
+
+.text1{
+    position: absolute;
+    font-family: 'Quicksand, sans-serif';
+    font-size: 20px;
+    text-align: center;
+    top: 250px;
+    text-shadow: 1px 1px 1px black;
+}
+.text2{
+    position: absolute;
+    font-family: 'Quicksand, sans-serif';
+    font-size: 20px;
+    text-align: center;
+    top: 350px;
+    right: 300px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.fa{
+    color:#fff;
+}
