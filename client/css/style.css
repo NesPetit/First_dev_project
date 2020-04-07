@@ -347,3 +347,149 @@ hr{
     position:relative;
     color:black;
 }
+
+
+/*---------------Classement---------------*/
+
+
+table
+{
+    font: normal 25px 'Open Sans', sans-serif;
+    border-collapse: collapse;
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    right:300px;
+    width: 23%;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+td
+{
+    font-size: 15px;
+    border-bottom: 1px solid black;
+}
+th
+{
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    background-color:rgb(68, 68, 68);
+}
+
+.LDC{
+    background-color:rgba(46, 198, 245, 0.4);
+
+}
+
+.barrage{
+    background-color:rgba(255, 183, 49, 0.4);
+}
+
+.EUROPA{
+    background-color:rgba(149, 224, 35, 0.4);
+}
+
+.rele{
+    background-color:rgba(247, 51, 51, 0.4);
+}
+
+.titre_classement{
+    position: absolute;
+    right:290px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    text-shadow: 1px 1px 5px black;
+    top:130px;
+}
+
+/*---------------Choix classement---------------*/
+
+.choix ul{
+    position: absolute;
+    left: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px black;
+    top:100px;
+    list-style:none;
+}
+
+.choix li{
+    float:left;
+}
+
+.choix ul ul{
+    position: absolute;
+    top:30px;
+    visibility:hidden;
+    flex-direction:column;
+}
+
+.choix ul li ul li{
+    flex-direction:column;
+}
+
+.choix ul li:hover ul{
+    visibility:visible;
+}
+
+.choix ul li ul a:hover{
+    color:black;
+}
+
+@media (max-width:950px){
+    .titre_classement{
+        right:200px;
+        top:100px;
+    }
+    .choix ul{
+        left: 70px;
+        top: 150px;
+    }
+    table{
+        left:450px;
+        top:150px;
+    }
+}
+
+@media (max-width:750px){
+    .titre_classement{
+        font-size: 25px;
+        right:150px;
+        top:145px;
+    }
+    .choix ul{
+        font-size: 25px;
+        left: 5px;
+        top: 150px;
+    }
+    table{
+        left:350px;
+        top:195px;
+    }
+}
+
+@media (max-width:650px){
+    .titre_classement{
+        font-size: 20px;
+        right:170px;
+        top:145px;
+    }
+    .choix ul{
+        font-size: 20px;
+        left: 5px;
+        top: 150px;
+    }
+    table{
+        left:250px;
+        top:195px;
+    }
+}
+
+@media (max-width:550px){
+    .titre_classement{
+        font-size: 20px;
+        right:20px;
+        top:145px;
+    }
+}
