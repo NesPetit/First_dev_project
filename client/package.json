@@ -7,7 +7,7 @@
     "start": "parcel index.html",
     "build": "parcel build *.html",
     "predeploy": "npm run build",
-    "deploy": "surge dist so-esilv-2020.surge.sh"
+    "deploy": "surge dist kickoff.surge.sh"
   },
   "keywords": [],
   "author": "",
