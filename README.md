@@ -4,7 +4,7 @@ This project was made by Alexandre Perez and Alec Guesssous
 kickoff.surge.sh
 
 ## Presentation
-We are proud to be able to present you our site presenting the latest news from the world of European football.
+We are proud to be able to present you our site presenting the latest news from the world of European football. Our site works on mobile as well as on computer. 
 
 ## Problems
 We've tried to use several APIs, but we've run into a lot of problems because of the paid APIs in the football world. 
